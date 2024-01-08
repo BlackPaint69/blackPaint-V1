@@ -1,5 +1,5 @@
 { 
-    "name": "senna-bot",
+    "name": "BlackPaint-bot",
     "version": "3.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node index.js",
+        "start": "node Index.js",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
