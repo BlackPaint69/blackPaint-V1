@@ -15,6 +15,8 @@ client.on('message', message => {
 	if(message.body === '.menu') {
 		message.reply('error el menu ests en desarollo por favor intente mas tarde ✨');
 	}
+
+	const packageJsonPath = path.join(path.dirname(currentFilePath), './package.json');
 });
 
 
